@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@media (max-width:600px){
+  #tabla{
+    .table-responsive.table{
+      display:flex;
+      flex-direction:column;
+    }
+    .table-responsive.table tbody{
+      display:flex;
+      flex-direction: column;
+      width:100%;
+      margin-bottom: 2px;
+    }
+    .table-responsive.table tbody tr td{
+      display: flex;
+      justify-content: space-between;
+      padding: 2px;
+      border: none;
+    }
+    .table-responsive.table tbody tr td::before{
+      content: attr(data-label);
+     flex-basis: 30%;
+    
+    }
+  }
+}
+

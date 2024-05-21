@@ -1,0 +1,40 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "szotar",
+    "collectionId": "ae352928-0944-42d4-99d2-410e4eb6f80a",
+    "dateExported": "2024-05-21T15:02:47.531Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b2bf030e-d389-41b3-a6e6-b164b5ded30f",
+            "colId": "ae352928-0944-42d4-99d2-410e4eb6f80a",
+            "containerId": "",
+            "name": "get tema",
+            "url": "api/tema",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-21T12:55:21.479Z",
+            "modified": "2024-05-21T12:59:31.358Z",
+            "headers": []
+        },
+        {
+            "_id": "47bf7db5-66df-474d-a7d2-8a607f813b76",
+            "colId": "ae352928-0944-42d4-99d2-410e4eb6f80a",
+            "containerId": "",
+            "name": "get szavak",
+            "url": "api/szavak",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-21T13:00:28.303Z",
+            "modified": "2024-05-21T15:02:21.295Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://127.0.0.1:8000/"
+        }
+    },
+    "ref": "wzk6jxEeCVpTCcUKPFhvdd5HMT3eE1K9fNHj6PW3CFNYHAPDFVRrt9cFH4J-KipHAxitrCeLhgSqU0LoHHuO5A"
+}
